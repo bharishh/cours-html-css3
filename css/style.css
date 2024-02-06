@@ -1,0 +1,28 @@
+/* ----- RESET CSS ----*/
+
+html{
+    font-size: 62.5%; /*16px * 62.5 = 10rem */
+}
+
+body{
+    font: 1.6rem sans-serif;  /* prop generale pour mettre en forme la police de base */
+    letter-spacing: .1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{  /* on supprime toutes les marges par defaut */ 
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    color: red;
+    text-decoration: none;   /* texte normal */
+}
+
+*{
+    box-sizing: border-box;
+}

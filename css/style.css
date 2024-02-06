@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,p,ul,ol{  /* on supprime toutes les marges par defaut */
 }
 
 a{
-    color: red;
+    color: red; 
     text-decoration: none;   /* texte normal */
 }
 

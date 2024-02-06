@@ -11,6 +11,7 @@ body {
     letter-spacing: .1rem;
     line-height: 1.6;
     margin: 0;
+    background-color: rgba(189, 197, 129,1.0);
 }
 
 h1,

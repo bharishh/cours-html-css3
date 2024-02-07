@@ -3,8 +3,8 @@
 /* ---- THEME ---- */
 
 header>h1{
-    background-color: rgba(99, 110, 114, 1.0);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     font-weight: normal;
     line-height: 6.5rem;
     text-align: center;
@@ -21,13 +21,16 @@ section {
     margin: 5rem auto;
     border: solid 0.5rem #333;
     padding: 0.5rem;
-    background-color:rgba(132, 129, 122,1.0) ;
+    background-color:rgb(222, 221, 219) ;
 
 }
 section p,ul{
     line-height: 3rem;
     padding: 1rem;
-
+}
+section a{
+    color: blue;
+    text-decoration: underline;
 }
 section img {
     width: 100%;
@@ -35,4 +38,5 @@ section img {
 
 footer *{
     text-align: center;
+    color: #fff;
 }

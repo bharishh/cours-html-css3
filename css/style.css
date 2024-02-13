@@ -12,8 +12,7 @@ body {
     line-height: 1.6;
     margin: 0;
     background-color: rgba(255, 255, 255, 0.158);
-    background-image: url("../asset/sigmund-eTgMFFzroGc-unsplash.jpg");
-    width: 100%;
+     
 }
 
 h1,
@@ -47,3 +46,8 @@ img {
     vertical-align: middle;
     object-fit: cover;
 }
+body,footer{
+    background: url("../asset/sigmund-eTgMFFzroGc-unsplash.jpg")no-repeat fixed center center / cover;
+    width: 100%;
+}
+

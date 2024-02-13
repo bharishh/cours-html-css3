@@ -1,25 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 @import url(./style.css);
 
 /* ---- THEME ---- */
+:root{ /*selector root = racine avec les variables*/ 
+    --bgcolor:rgba(0, 98, 102,1.0);
+    --colortext:#fff;
+    --colorborder:#000000;
+    --bgcolcentre:rgb(222, 221, 219);
+    --linkcolor:blue; 
+
+}
 
 header>h1{
-    color: #000000;
+    color: var(--colorborder);
     font-weight: normal;
     line-height: 4.5rem;
     text-align: center;
-    text-shadow: 5px 5px 0px rgba(0,0,0,0.2);
+    text-shadow: var(--colorborder);
     font-size: 3.5rem;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   
 }
 section h2{
     text-align: center;
     line-height: 5.5rem;
-    background-color: rgba(0, 98, 102,1.0); 
-    color: #fff;
+    background-color: var(--bgcolor); 
+    color: var(--colortext);
 }
 
 section {
@@ -27,7 +35,7 @@ section {
     margin: 5rem auto;
     border: solid 0.5rem #333;
     padding: 0.5rem;
-    background-color:rgb(222, 221, 219) ;
+    background-color:var(--bgcolcentre);
 
 }
 section p,ul{
@@ -35,7 +43,7 @@ section p,ul{
     padding: 1rem;
 }
 section a{
-    color: blue;
+    color:var(--linkcolor);
     text-decoration: underline;
 }
 section img {
@@ -44,5 +52,5 @@ section img {
 
 footer *{
     text-align: center;
-    color: #fff;
+    color:var(--colortext);
 }

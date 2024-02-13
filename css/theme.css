@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Protest+Revolution&display=swap');
 @import url(./style.css);
 
 /* ---- THEME ---- */
@@ -44,6 +45,7 @@ section {
 section p,ul{
     line-height: 3rem;
     padding: 1rem;
+    
 }
 section a{
     color:var(--linkcolor);
@@ -56,4 +58,9 @@ section img {
 footer *{
     text-align: center;
     color:var(--colorborder);
+}
+section ul, li {
+    list-style-type:circle;
+    margin: .4rem auto;
+    max-width:85rem;
 }

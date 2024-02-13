@@ -47,7 +47,7 @@ img {
     object-fit: cover;
 }
 body,footer{
-    background: url("../asset/sigmund-eTgMFFzroGc-unsplash.jpg")no-repeat fixed center center / cover;
+    background: url("../asset/sigmund-eTgMFFzroGc-unsplash.jpg")no-repeat fixed  center center / cover;
     width: 100%;
 }
 

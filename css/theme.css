@@ -11,6 +11,7 @@
     --linkcolor:blue; 
     --borderradius: .6rem;
     --subbtitle:uppercase;
+    --btn-default-color : #817f7f;
 }
 
 header>h1{
@@ -53,6 +54,31 @@ section a{
 }
 section img {
     width: 100%;
+}
+.btns-default{
+    display: inline-block;
+    width: max-content;
+    background-color: var(--btn-default-color) ;
+    line-height: 2rem;
+    padding: .3rem 1rem;
+    border-radius: var(--borderradius);
+}
+
+
+.btn-option-success{
+    background-color: var(--bgcolor) ;
+    color: var(--colortext);
+    cursor: pointer;
+}
+
+.btn-option-warning{
+    background-color:var(--btn-default-color);
+    color: var(--colortext);
+}
+a:hover{
+    background-color: var(--colorborder);
+    cursor: pointer;
+    
 }
 
 footer *{

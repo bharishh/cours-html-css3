@@ -27,13 +27,6 @@ header>h1{
     font-style: normal;
   
 }
-h2{
-    text-align: center;
-    line-height: 5.5rem;
-    background-color: var(--bgcolor);
-    color: var(--colortext);
-    text-transform: var(--subbtitle);
-}
 
 section {
     max-width: 90rem;
@@ -55,6 +48,10 @@ section a{
 section img {
     width: 100%;
 }
+
+
+
+
 .btns-default{
     display: inline-block;
     width: max-content;
@@ -65,19 +62,24 @@ section img {
 }
 
 
-.btn-option-success{
+/* title level two (h2 et h3)*/
+.btn-level-two{
+    text-align: center;
+    line-height: 5.5rem;
     background-color: var(--bgcolor);
     color: var(--colortext);
-    cursor: pointer;
+    text-transform: var(--subbtitle);
 }
+.btn-title-trois{
+    background-color: var(--subtitile-color);
+    color: var(--colortext);
+    margin:.4rem;
+}
+
+
 
 .btn-option-warning{
     background-color:var(--btn-default-color);
-    color: var(--colortext);
-}
-
-.btn-title-color-default{
-    background-color: var(--subtitile-color);
     color: var(--colortext);
 }
 a:hover{
@@ -86,16 +88,16 @@ a:hover{
     
 }
 
+
+
+
 footer *{
     text-align: center;
     color:var(--colorborder);
 }
+
 section ul, li {
     list-style-type:circle;
     margin: .4rem auto;
     max-width:85rem;
-}
-
-section h3{
-    margin:.4rem;
 }

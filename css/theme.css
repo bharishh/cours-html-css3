@@ -12,6 +12,7 @@
     --borderradius: .6rem;
     --subbtitle:uppercase;
     --btn-default-color : #817f7f;
+    --subtitile-color:rgb(21, 118, 52);
 }
 
 header>h1{
@@ -26,7 +27,7 @@ header>h1{
     font-style: normal;
   
 }
-section h2{
+h2{
     text-align: center;
     line-height: 5.5rem;
     background-color: var(--bgcolor);
@@ -45,12 +46,11 @@ section {
 }
 section p,ul{
     line-height: 3rem;
-    padding: 1rem;
+    padding: .1rem;
     
 }
 section a{
     color:var(--linkcolor);
-    text-decoration: underline;
 }
 section img {
     width: 100%;
@@ -60,19 +60,24 @@ section img {
     width: max-content;
     background-color: var(--btn-default-color) ;
     line-height: 2rem;
-    padding: .3rem 1rem;
+    padding: .5rem 2rem;
     border-radius: var(--borderradius);
 }
 
 
 .btn-option-success{
-    background-color: var(--bgcolor) ;
+    background-color: var(--bgcolor);
     color: var(--colortext);
     cursor: pointer;
 }
 
 .btn-option-warning{
     background-color:var(--btn-default-color);
+    color: var(--colortext);
+}
+
+.btn-title-color-default{
+    background-color: var(--subtitile-color);
     color: var(--colortext);
 }
 a:hover{
@@ -89,4 +94,8 @@ section ul, li {
     list-style-type:circle;
     margin: .4rem auto;
     max-width:85rem;
+}
+
+section h3{
+    margin:.4rem;
 }

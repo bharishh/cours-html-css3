@@ -76,20 +76,35 @@ section img {
     margin:.4rem;
 }
 
-
-
 .btn-option-warning{
-    background-color:var(--btn-default-color);
+    background: linear-gradient(-30deg, #0b1b3d 50%, #08142b 50%);
+    margin:8px;
+    padding: 10px;
+    font-size: 15px;
     color: var(--colortext);
-}
-a:hover{
-    background-color: var(--colorborder);
-    cursor: pointer;
-    
+
 }
 
+.btn-option-success{
+color: var(--colortext);
+background: linear-gradient(-30deg, #0b1b3d 50%, #08142b 50%);
+margin:8px;
+padding: 10px;
+font-size: 15px;
+}
 
 
+/*trasition*/
+
+.btn-option-success, .btn-option-warning{
+    transition: all .2s ease-in-out;
+}
+
+/* add pseudo class hover*/
+
+.btn-option-success:hover, .btn-option-warning:hover{
+    filter: brightness(.5);
+}
 
 footer *{
     text-align: center;

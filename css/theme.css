@@ -47,6 +47,7 @@ section a{
 }
 section img {
     width: 100%;
+    filter: brightness(60%);
 }
 
 
@@ -104,6 +105,7 @@ font-size: 15px;
 
 .btn-option-success:hover, .btn-option-warning:hover{
     filter: brightness(.5);
+    border-radius: 10rem;
 }
 
 footer *{
